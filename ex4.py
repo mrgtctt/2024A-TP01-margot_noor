@@ -2,7 +2,7 @@
 #        calcule la distance restante en km en fonction de ce pourcentage,
 #        et affiche le résultat au format "XX km".
 #        Assurez une gestion du pourcentage valide au cours de votre programme (% toujours dans [0 ; 100])
-battery_level =float(input("Pourcentage de batterie?\n"))
+battery_level =float(input("Pourcentage de batterie ? "))
 Distance,Distance_1,Distance_2,Distance_3,Distance_4,Distance_5=0,0,0,0,0,0
 
 if battery_level==0:

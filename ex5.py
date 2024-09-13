@@ -1,8 +1,8 @@
 #TODO: Analyser la chaîne de caractères saisie et compter le nombre de médailles.
 #      Attention si la chaîne est invalide, un message d'erreur est attendu.
 
-country =input("Veuillez saisir le pays concerné: ")
-code_medals =str(input("Veuillez saisir la chaine de caractère représentant le pays: "))
+country =input("Pays concerné ? ")
+code_medals =str(input("Chaine représentant les médailles ? "))
 valid_caracter=("G","B","S")
 ore,argent,bronze=0,0,0
 if set(code_medals).issubset(valid_caracter):
@@ -13,6 +13,7 @@ if set(code_medals).issubset(valid_caracter):
        argent=argent+1
     if code_medals[i]==("B"):
        bronze=bronze+1
-  print(f" -{ore} or\n -{argent} argent\n -{bronze} bronze")
+  print(f" -{ore} Or\n -{argent} Argent\n -{bronze} Bronze")
 else:
    print("Veuillez entrer une chaine valide")
+
