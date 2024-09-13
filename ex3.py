@@ -7,4 +7,3 @@ angle_rad = math.radians(angle)
 x = ((speed)**2 * math.sin(2*angle_rad) )/9.80
 phrase = "La distance maximale en x est de {} m.".format(round(x,2))
 print(phrase)
-

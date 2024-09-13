@@ -9,6 +9,9 @@ nbr_s = code_medals.count("S")
 nbr_b = code_medals.count("B")
 nbr_tot = nbr_g + nbr_s + nbr_b 
 if l == nbr_tot : 
-    print("Medailles : \n - Or : ", nbr_g, "\n - Argent : ", nbr_s, "\n - Bronze :", nbr_b)
+    print("Medailles : ")
+    print(f"- {nbr_g} Or")
+    print(f"- {nbr_s} Argent")
+    print(f"- {nbr_b} Bronze")
 else : 
     print("Veuillez saisir une chaîne valide.")
