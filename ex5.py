@@ -13,7 +13,9 @@ if set(code_medals).issubset(valid_caracter):
        argent=argent+1
     if code_medals[i]==("B"):
        bronze=bronze+1
-  print(f" -{ore} Or\n -{argent} Argent\n -{bronze} Bronze")
+
+  print(f"{country}:\n- {ore} Or\n- {argent} Argent\n- {bronze} Bronze")
+  #f" -{ore} Or\n -{argent} Argent\n -{bronze} Bronze")
 else:
-   print("Veuillez entrer une chaine valide")
+   print("Ceci est une chaine invalide.")
 
