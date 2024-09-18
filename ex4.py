@@ -22,11 +22,12 @@ else:
         battery_level=5
     if battery_level>0:
         Distance_4= (battery_level)*6
+    Distance_5=round(Distance+Distance_1+Distance_2+Distance_3+Distance_4,1)
+    print(Distance_5,"km")
 
    
 
-Distance_5=round(Distance+Distance_1+Distance_2+Distance_3+Distance_4,1)
-print("La distance possible est de:",Distance_5,"km")
+
 
 
 
